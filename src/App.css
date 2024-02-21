@@ -1,0 +1,25 @@
+.imgshape{
+  height: 250px;
+  width: 250px;
+  /* framework same and thus may have spaces according to sizing. */
+  object-fit: contain;
+  /* object-fit:cover; */
+}
+h1{
+  text-align: center;
+}
+.imgpos{
+  width: 100%;
+  display:flex;
+  justify-content: center;
+}
+.divshape{
+  height: 250px;
+  width: 250px;
+}
+.divcentre{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
